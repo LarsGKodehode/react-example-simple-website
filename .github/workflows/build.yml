@@ -1,0 +1,28 @@
+# This is a file for setting up Continous Integration with GitHub
+
+name: Page-Build
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    # Describing our server
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm install
+
+      - name: Start deployment
+        uses: peaciris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets-GITHUB_TOKEN }}
+          publish_dir: ./build
