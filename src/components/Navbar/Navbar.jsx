@@ -1,6 +1,7 @@
 // Libraries
 import {
-    NavLink
+    NavLink,
+    Link,
 } from "react-router-dom";
 
 // Assets
@@ -14,7 +15,7 @@ import styles from "./layout.module.css";
 function Navbar() {
     return (
         <header className={styles.container}>
-            <NavLink to="/"><img src={logo} title="Icon Home" alt="Page Logo" height="200px"/></NavLink>
+            <Link to="/"><img src={logo} title="Logo" alt="Page Logo" height="200px"/></Link>
             <nav>
                 <ul className={styles.navLinksWrapper}>
                     <li><NavLink title="Link to Homepage" className={({isActive}) => isActive ? styles.linkActive : ""} to="/"><Icon.Home /></NavLink></li>
