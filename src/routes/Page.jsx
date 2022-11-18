@@ -17,6 +17,7 @@ function LandingPage() {
     return (
         <>
             <Navbar />
+            
             <main className={styles.wrapper}>
                 <Outlet />
             </main>
