@@ -1,0 +1,7 @@
+:root {
+    --spacing-base: 1em; 
+
+    --spacing-small: calc(var(--spacing-base) * 1);
+    --spacing-medium: calc(var(--spacing-base) * 3);
+    --spacing-large: calc(var(--spacing-base) * 5);
+}

@@ -1,0 +1,4 @@
+.container {
+    background-color: var(--color-tertiary-500);
+    padding: var(--spacing-small) var(--spacing-large);
+}

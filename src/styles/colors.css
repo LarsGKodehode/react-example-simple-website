@@ -1,0 +1,10 @@
+:root {
+    --color-primary-500: darkgoldenrod;
+    --color-secondary-500: darkmagenta;
+    --color-tertiary-500: steelblue;
+
+    --color-white: bisque;
+    --color-black: #000000;
+
+    background-color: bisque;
+}

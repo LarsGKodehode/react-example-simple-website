@@ -1,0 +1,12 @@
+.container {
+    background-color: white;
+
+    padding: .4em;
+    border-radius: 20px;
+    margin: 1em;
+}
+
+.projectLinksList {
+    display: flex;
+    justify-content: space-around;
+}
