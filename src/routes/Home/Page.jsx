@@ -1,5 +1,5 @@
 /**
- * Page for telling something about us
+ * Page Home
  */
 function Home() {
     return (
