@@ -1,0 +1,26 @@
+[
+    {
+        "projectID": 0,
+        "name": "Game Tenzies",
+        "tags": ["scrimba", "game", "react"],
+        "details": "A React WebApp for playing the game Tenzies",
+        "homepage": "https://larsgunnar.no/tenzies/",
+        "codeUrl": "https://github.com/LarsGKodehode/tenzies"
+    },
+    {
+        "projectID": 1,
+        "name": "Collatz tester",
+        "tags": ["kodehode", "mathematics", "ES6"],
+        "details": "A web app for running Collatz conjectures on numbers. Used Webworkers for the heavy calculations",
+        "homepage": "https://larsgunnar.no/algorithms/main.html",
+        "codeUrl": "https://github.com/LarsGKodehode/algorithms"
+    },
+    {
+        "projectID": 2,
+        "name": "React Counter",
+        "tags": ["kodehode", "react"],
+        "details": "A simple counter application for learning React",
+        "homepage": "https://larsgunnar.no/SimpleCounter/",
+        "codeUrl": "https://github.com/LarsGKodehode/SimpleCounter"
+    }
+]
