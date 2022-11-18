@@ -9,7 +9,6 @@ import {
 import "styles/basic.css";
 import "styles/colors.css";
 import "styles/lengths.css";
-import "styles/containerLayout.css";
 
 // App component
 import App from "./App";
