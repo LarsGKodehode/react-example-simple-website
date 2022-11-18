@@ -7,6 +7,6 @@ export const content = {
         "Likes figuring out how stuff works",
         "Likes reading about new stuff",
         "Likes cold weather better than warm",
-        "Spending more time now and having extra later",
+        "Likes spending more time now and having extra later",
     ],
 };

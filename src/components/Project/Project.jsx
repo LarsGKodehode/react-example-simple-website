@@ -14,7 +14,7 @@ function Project() {
     const { projectID } = useParams();
     const project = getProject(parseInt(projectID));
 
-    // Simple way of error handling
+    // Simple way of handling non existant adress
     if (!project) {
         return (
             <h2>404: Project not found</h2>

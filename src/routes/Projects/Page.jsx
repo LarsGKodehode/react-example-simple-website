@@ -23,7 +23,7 @@ function listProjects(list) {
     const projectList = list.map(
         (project) => {
         return (
-            <li>
+            <li key={project.projectID}>
                 <QueryLink
                     to={project.projectID}
                 >
@@ -44,7 +44,7 @@ function Projects() {
     const [ projectList ] = useState(getProjects());
 
     return (
-        <div className="mainContentContainer">
+        <>
             <h1>Projects Page</h1>
 
             <ul>
@@ -56,7 +56,7 @@ function Projects() {
             </Routes>
 
             <Outlet />
-        </div>
+        </>
     );
 };
 

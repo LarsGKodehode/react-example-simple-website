@@ -1,13 +1,27 @@
+// Libraries
+import {
+    Outlet
+} from "react-router-dom";
+
+// Components
+import Navbar from "components/Navbar";
+import Footer from "components/Footer";
+
 /**
  * Page you land on
  */
-function Home() {
+function LandingPage() {
     return (
-        <div className="mainContentContainer">
-            <h1>This is the landing page</h1>
-        </div>
+        <>
+            <Navbar />
+            <main className="mainContentContainer">
+                <Outlet />
+            </main>
+
+            <Footer />
+        </>
     );
 };
 
 
-export default Home;
+export default LandingPage;

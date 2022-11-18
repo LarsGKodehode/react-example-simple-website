@@ -1,9 +1,6 @@
 // data
 import { content } from "./content";
 
-// CSS
-import styles from "./layout.module.css";
-
 
 function randomFact() {
     const randomIndex = Math.floor(Math.random() * content.interrests.length);
@@ -20,19 +17,15 @@ function randomFact() {
  */
 function AboutPage() {
     return (
-        <div className={[
-                styles.container,
-                "mainContentContainer",
-            ].join(" ")}
-        >
+        <>
             <h1>This is the about us page</h1>
-            <div>
+            <article>
                 <h1>{content.names.join(" ") + " " + content.sureName}</h1>
                 <p>Gender: {content.gender}</p>
                 <p>Age: {content.age}</p>
                 {randomFact()}
-            </div>
-        </div>
+            </article>
+        </>
     );
 };
 
