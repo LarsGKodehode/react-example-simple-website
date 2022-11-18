@@ -6,7 +6,7 @@ import {
 
 // Assets
 import Icon from "assets/icons";
-import logo from "assets/logo.png";
+import logo from "assets/logo.webp";
 
 // CSS
 import styles from "./layout.module.css";
