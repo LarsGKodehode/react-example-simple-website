@@ -1,7 +1,12 @@
 :root {
     --spacing-base: 1em; 
 
+    --spacing-x-small: calc(var(--spacing-base) * 0.5);
     --spacing-small: calc(var(--spacing-base) * 1);
     --spacing-medium: calc(var(--spacing-base) * 3);
     --spacing-large: calc(var(--spacing-base) * 5);
+
+    --border-radius-rectangular: 6px;
+    --border-radius-normal: 10px;
+    --border-radius-rounded: 20px;
 }

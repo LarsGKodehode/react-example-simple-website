@@ -8,7 +8,7 @@ import {
 // Styling
 import "styles/basic.css";
 import "styles/colors.css";
-import "styles/spacing.css";
+import "styles/lengths.css";
 import "styles/containerLayout.css";
 
 // App component
