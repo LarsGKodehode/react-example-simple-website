@@ -31,7 +31,7 @@ function listProjects(list, filter) {
                 return (
                     project.name.toLowerCase().includes(filterFormatted)
                     || project.tags.join(" ").toLowerCase().includes(filterFormatted)
-                )
+                );
             }
         );
     };
