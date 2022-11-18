@@ -1,0 +1,4 @@
+.searchBar {
+    padding: var(--spacing-x-small) var(--spacing-small);
+    border-radius: var(--border-radius-rectangular);
+};
