@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-example-simple-website/static/css/main.f4ee075a.css",
-    "main.js": "/react-example-simple-website/static/js/main.19d2c09b.js",
+    "main.css": "/react-example-simple-website/static/css/main.3b3f7b77.css",
+    "main.js": "/react-example-simple-website/static/js/main.11c8dc53.js",
     "static/media/logo.png": "/react-example-simple-website/static/media/logo.cf604b7f74ae6e9db1fd.png",
     "static/media/files-interface-icon-svgrepo-com.svg": "/react-example-simple-website/static/media/files-interface-icon-svgrepo-com.65b9caa092b2cb350f6030f58e4878bf.svg",
     "static/media/email-interface-icon-svgrepo-com.svg": "/react-example-simple-website/static/media/email-interface-icon-svgrepo-com.7f8353185fdc513c41eef67b946018f4.svg",
     "static/media/home-interface-icon-svgrepo-com.svg": "/react-example-simple-website/static/media/home-interface-icon-svgrepo-com.e91795aa870741897b60e1b1a728c6f5.svg",
     "static/media/chat-interface-icon-svgrepo-com.svg": "/react-example-simple-website/static/media/chat-interface-icon-svgrepo-com.64ac251cb1d63bb70888e3ed9c10b9ff.svg",
     "index.html": "/react-example-simple-website/index.html",
-    "main.f4ee075a.css.map": "/react-example-simple-website/static/css/main.f4ee075a.css.map",
-    "main.19d2c09b.js.map": "/react-example-simple-website/static/js/main.19d2c09b.js.map"
+    "main.3b3f7b77.css.map": "/react-example-simple-website/static/css/main.3b3f7b77.css.map",
+    "main.11c8dc53.js.map": "/react-example-simple-website/static/js/main.11c8dc53.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4ee075a.css",
-    "static/js/main.19d2c09b.js"
+    "static/css/main.3b3f7b77.css",
+    "static/js/main.11c8dc53.js"
   ]
 }
