@@ -9,13 +9,24 @@
 .navLinksWrapper {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
 }
 
 .navLinksWrapper > li {
     list-style: none;
     margin: var(--spacing-small);
+    min-height: 100%;
+}
+
+.link {
+    display: flex;
+    flex-grow: 1;
+    padding: var(--spacing-small);
+    border-radius: var(--border-radius-rounded);
 }
 
 .linkActive {
-    border-bottom: 10px solid var(--color-white);
+    /* border-top: 10px solid var(--color-white); */
+    background-color: var(--color-white);
 }

@@ -1,6 +1,5 @@
 // Libraries
 import {
-    NavLink,
     Link,
 } from "react-router-dom";
 
@@ -11,41 +10,42 @@ import logo from "assets/logo.webp";
 // CSS
 import styles from "./layout.module.css";
 
+// components
+import NavbarLink from "./components/NavbarLink";
 
+/**
+ * Main navigation menu
+ */
 function Navbar() {
     return (
         <header className={styles.container}>
             <Link to="/"><img src={logo} title="Logo" alt="Page Logo" height="200px"/></Link>
             <nav>
                 <ul className={styles.navLinksWrapper}>
-                    <li><NavLink
+                    <NavbarLink
                         title="Link to Homepage"
-                        className={({isActive}) => isActive ? styles.linkActive : ""}
                         to="/"
                     >
                         <Icon.Home />
-                    </NavLink></li>
-                    <li><NavLink
+                    </NavbarLink>
+                    <NavbarLink
                         title="Link to Projects"
-                        className={({isActive}) => isActive ? styles.linkActive : ""}
                         to="/Projects"
                     >
                         <Icon.Projects />
-                    </NavLink></li>
-                    <li><NavLink
+                    </NavbarLink>
+                    <NavbarLink
                         title="Link to About information"
-                        className={({isActive}) => isActive ? styles.linkActive : ""}
                         to="/About"
                     >
                         <Icon.About />
-                    </NavLink></li>
-                    <li><NavLink
+                    </NavbarLink>
+                    <NavbarLink
                         title="Link to contact methods"
-                        className={({isActive}) => isActive ? styles.linkActive : ""}
                         to="/Contact"
                     >
                         <Icon.Email />
-                    </NavLink></li>
+                    </NavbarLink>
                 </ul>
             </nav>
         </header>
