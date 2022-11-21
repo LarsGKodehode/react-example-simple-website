@@ -1,2 +1,2 @@
 // eslint-disable-next-line
-export { default as Project } from "./Project";
+export { default as default } from "./Project";

@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 
 // Routes
-import LandingPage from "routes/Page";
+import LandingPage from "routes";
 import Home from "routes/Home";
 import About from "routes/About";
 import Contact from "routes/Contact";

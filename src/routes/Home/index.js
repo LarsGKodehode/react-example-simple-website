@@ -1,2 +1,2 @@
 // eslint-disable-next-line
-export { default as Home } from "./page";
+export { default as default } from "./page";
