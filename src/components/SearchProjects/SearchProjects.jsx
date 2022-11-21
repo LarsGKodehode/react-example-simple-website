@@ -4,6 +4,9 @@ import {
     useState
 } from 'react';
 
+// Assets
+import Icon from 'assets/icons';
+
 // CSS
 import styles from "./layout.module.css";
 
@@ -28,13 +31,16 @@ function SearchProjects(props) {
     );
 
     return (
-        <input
-            className={styles.searchBar}
-            type="text"
-            placeholder="Filter by project name"
-            value={searchTerm}
-            onChange={(event) => handleChange(event, setSearchString)}
-        />
+        <div className={styles.inputWrapper}>
+            <input
+                className={styles.searchBar}
+                type="text"
+                placeholder="Filter by project name"
+                value={searchTerm}
+                onChange={(event) => handleChange(event, setSearchString)}
+            />
+            <Icon.MagnifyingGlass className={styles.icon}/>
+        </div>
     );
 };
 

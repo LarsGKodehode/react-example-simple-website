@@ -13,7 +13,7 @@ import styles from "../layout.module.css";
 function NavbarLink(props) {
     const { title, to, children } = props
     return (
-        <li>
+        <li className={styles.listElement}>
             <NavLink
                 title={title}
                 className={({isActive}) => [isActive ? styles.linkActive : "", styles.link].join(" ")}

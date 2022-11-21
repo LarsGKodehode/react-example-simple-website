@@ -1,4 +1,14 @@
+.inputWrapper {
+
+}
+
 .searchBar {
     padding: var(--spacing-x-small) var(--spacing-small);
     border-radius: var(--border-radius-rectangular);
 };
+
+.icon {
+    max-height: 10px;
+    max-width: 10px;
+    background-color: black;
+}

@@ -19,7 +19,17 @@ import NavbarLink from "./components/NavbarLink";
 function Navbar() {
     return (
         <header className={styles.container}>
-            <Link to="/"><img src={logo} title="Logo" alt="Page Logo" height="200px"/></Link>
+            <Link
+                to="/"
+            >
+                <img
+                    src={logo}
+                    title="Logo"
+                    alt="Page Logo"
+                    height="200px"
+                />
+            </Link>
+
             <nav>
                 <ul className={styles.navLinksWrapper}>
                     <NavbarLink
@@ -28,18 +38,21 @@ function Navbar() {
                     >
                         <Icon.Home />
                     </NavbarLink>
+
                     <NavbarLink
                         title="Link to Projects"
                         to="/Projects"
                     >
                         <Icon.Projects />
                     </NavbarLink>
+
                     <NavbarLink
                         title="Link to About information"
                         to="/About"
                     >
                         <Icon.About />
                     </NavbarLink>
+                    
                     <NavbarLink
                         title="Link to contact methods"
                         to="/Contact"
