@@ -1,2 +1,2 @@
 // eslint-disable-next-line
-export { default as default } from "./Footer";
+export { default as Footer } from "./Footer";

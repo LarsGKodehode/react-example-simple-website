@@ -1,2 +1,2 @@
 // eslint-disable-next-line
-export { default as default } from "./Navbar";
+export { default as Navbar } from "./Navbar";

@@ -1,2 +1,2 @@
 // eslint-disable-next-line
-export { default as default } from "./QueryLink";
+export { default as QueryLink } from "./QueryLink";
